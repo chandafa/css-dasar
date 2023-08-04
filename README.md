@@ -1,4 +1,7 @@
-		# belajar css di vscode # 
+	
+# <i>belajar css di vscode</i>
+
+<br>
 
 ## duplicate baris : Alt + Shift + Menurun
 
