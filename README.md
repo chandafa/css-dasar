@@ -1,17 +1,11 @@
-# Belajar Css di vscode 
-
-</br>
+		# belajar css di vscode # 
 
 ## duplicate baris : Alt + Shift + Menurun
-
-</br>
 
 ## membuat tag sekaligus : p*3 
 
 ## membuat tag sekaligus tulisan : p{tulisan}
 ## jika digabung : p*3{tulisan}
-
-</br>
 
 ## membuat nomor berurutan : {$} 
 ## contoh : p*3{tulisan $}
@@ -23,29 +17,17 @@
 	{$$} : Puluhan
 
 
-</br>
-
 ## ul (unordered list) list tidak  terurut
 ## li (list item) isi 
 ## ol (ordered list) list terurut
 
-</br>
-
 ## bikin link : a enter
-
-</br>
 
 ## membuat list sekaligus :    ul>li*5>a{Link $}
 
-</br>
-
 ## memberikan warna di text : berikan tag <font color="merah"> merah </font> 
 
-</br>
-
 ## memperbesar font di html : size="20"
-
-</br>
 
 
 ## contoh css internal : 
@@ -56,12 +38,8 @@
   </style>
 
 
-</br>
-
 ## contoh css inline :
 <h1 style="color: salmon; font-family: arial;">Contoh</h1>
-
-</br>
 
 
 ## penjelasan css internal
@@ -73,14 +51,56 @@
 			   }
      Tag Penutup ---> </style>
 
-
-</br>
-
 ## manual komentar code : /*
 ## shortcut komentar/nonaktifkan code : ctrl + /
 
 
-</br>
-
 ## saat menggunakan selector id kita meberikan tanda #(pagar) di style css
 ## saat menggunakan selector class kita memberikan tanda .(titik) di style css
+## cara mewarnai tulisan menggunakan selector style, contoh : <p style="color: blue;">Contoh</p>
+
+Note : 
+	class : bisa digunakan berulang-ulang
+	id : hanya sekali digunakan (rekomendasi) gunakan id saat menggunakan javascript
+
+## membuat tulisan miring di css (jangan lupa berikan class di html) : font-style: italic;
+## membuat tulisan besar/kapital di css (jangan lupa berikan class di html) : text-transform: uppercase;
+## membuat tulisan kecil di css (jangan lupa berikan class di html) : text-transform: lowercase;
+## membuat tulisan tebal di css (jangan lupa berikan class di html) : font-weight: bold;
+
+
+## menggabung tag html dan selector tambahan untuk menentukan warna didalam tag yg sama,cara nya tambahkan element yang di butuhkan di akhir selector css
+contoh : 
+
+	h1 {
+	  color: blue;
+	   }
+
+	.judul1 h1 {
+            color: cadetblue;
+        	   }
+
+	.judul2 h1 {
+            color: cadetblue;
+        	   }
+
+	<h1 class="judul1">Judul 1</h1>
+	<h1 class="judul2">Judul 2</h1>
+
+
+
+## memberikan warna di link : buat dan berikan warna untuk tag <a>
+
+## memberikan warna yang berbeda di tag a di luar listnya : berikan li pada selector a di css
+
+Note :
+	kalau selector menggunakan spasi artinya didalam (bacanya dari kanan)
+	kalau selector menggunakan titik artinya memiliki (memiliki class)
+
+contoh : h3 .paragraft2 {
+		     color: red;
+			}
+
+	dibacanya : carikan saya element apapun yang punya class paragraft2 yang berada di dalam h3
+
+## 
