@@ -43,13 +43,13 @@
 
 
 ## penjelasan css internal
-     Tag Pembuka ---> <style>
-       	Selector --->   h1{
-   	Properti --->     color: aqua; <--- Value
-    Gaya Tulisan --->	  font-family: arial;
-  Ukuran Tulisan --->	  font-size: 50px ;
-			   }
-     Tag Penutup ---> </style>
+         Tag Pembuka ---> <style>
+ 	        Selector --->   h1{
+   	        Properti --->     color: aqua; <--- Value
+        Gaya Tulisan --->	  font-family: arial;
+      Ukuran Tulisan --->	  font-size: 50px ;
+	     		          }
+         Tag Penutup ---> </style>
 
 ## manual komentar code : /*
 ## shortcut komentar/nonaktifkan code : ctrl + /
