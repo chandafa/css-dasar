@@ -1,5 +1,4 @@
-	
-# <i>belajar css di vscode</i>
+		#<i> belajar css di vscode </i># 
 
 <br>
 
@@ -46,13 +45,13 @@
 
 
 ## penjelasan css internal
-         Tag Pembuka ---> <style>
- 	        Selector --->   h1{
-   	        Properti --->     color: aqua; <--- Value
-        Gaya Tulisan --->	  font-family: arial;
-      Ukuran Tulisan --->	  font-size: 50px ;
-	     		          }
-         Tag Penutup ---> </style>
+     Tag Pembuka ---> <style>
+       	Selector --->   h1{
+   	Properti --->     color: aqua; <--- Value
+    Gaya Tulisan --->	  font-family: arial;
+  Ukuran Tulisan --->	  font-size: 50px ;
+			   }
+     Tag Penutup ---> </style>
 
 ## manual komentar code : /*
 ## shortcut komentar/nonaktifkan code : ctrl + /
@@ -102,8 +101,35 @@ Note :
 
 contoh : h3 .paragraft2 {
 		     color: red;
-			}
+		        }
 
 	dibacanya : carikan saya element apapun yang punya class paragraft2 yang berada di dalam h3
 
-## 
+contoh : h3.paragraft2 {
+		     color: red;
+		       }
+
+	dibacanya : carikan saya element H3 yang punya class paragraft2
+
+
+contoh : ul li a {
+		color: red;
+		 }
+
+	dibacanya : cariin a yang ada di dalam li dan yang ada di dalam ul (kebalikan)
+
+Note : 
+	ul : list titik
+	ol : list nomor
+
+## membuat warna terpisah dalam 1 kalimat (menggunakan span)
+	contoh : <h3 class="judul2">Candra <span class="paragraft4">Kirana</span></h3>
+
+
+Note :
+	<p> : paragraft
+	<h> : heading
+	
+	Apa itu DIV dan SPAN? (tag yang tidak mempunyai nilai)
+		Element div (block) digunakan sebagai "divider" atau pemisah. Div banyak digunakan untuk mengelompokan sekumpulan element. 
+		Sedangkan span digunakan sebagai container untuk inline element.
