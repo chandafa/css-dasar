@@ -1,4 +1,4 @@
-# belajar css di vscode
+		#<i> belajar css di vscode </i># 
 
 <br>
 
@@ -127,8 +127,8 @@ Note :
 
 
 Note :
-	<p> : paragraft
-	<h> : heading
+	tag p : paragraft
+	tag h : heading
 	
 	Apa itu DIV dan SPAN? (tag yang tidak mempunyai nilai)
 		Element div (block) digunakan sebagai "divider" atau pemisah. Div banyak digunakan untuk mengelompokan sekumpulan element. 
