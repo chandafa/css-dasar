@@ -18,10 +18,11 @@
 	{$} : Satuan
 	{$$} : Puluhan
 
+Note :
 
-## ul (unordered list) list tidak  terurut
-## li (list item) isi 
-## ol (ordered list) list terurut
+	 ## ul (unordered list) list tidak  terurut
+	 ## li (list item) isi 
+	 ## ol (ordered list) list terurut
 
 ## bikin link : a enter
 
