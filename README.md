@@ -118,7 +118,8 @@ contoh : ul li a {
 
 	dibacanya : cariin a yang ada di dalam li dan yang ada di dalam ul (kebalikan)
 
-	Note : 
+Note : 
+ 
 	ul : list titik
 	ol : list nomor
 
